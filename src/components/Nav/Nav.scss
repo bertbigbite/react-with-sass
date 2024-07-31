@@ -1,0 +1,89 @@
+// Block: nav
+.nav {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  gap: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  padding: 20px;
+  height: 100px;
+  margin: auto;
+  z-index: 1;
+}
+
+// Element: nav__list (ul inside nav)
+.nav__list {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+// Modifier: nav__item--first (first item in nav)
+.nav__item--first {
+  border-right: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+// Modifier: nav__item--second (second item in nav)
+.nav__item--second {
+  border-right: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+// Modifier: nav__item--third (third item in nav)
+.nav__item--third {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+// Block: socials
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 185px;
+  padding-left: 0px;
+  padding-right: 100px;
+}
+
+// Block: logo
+.logo {
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+// Block: nav (duplicate for specific properties)
+.nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+// Element: nav__list--unstyled (unordered list with no bullets)
+.nav__list--unstyled {
+  list-style: none;
+}
+
+// Element: nav__item (list item inside nav)
+.nav__item {
+  display: inline;
+  margin: 0 1rem;
+  color: #544848;
+}
